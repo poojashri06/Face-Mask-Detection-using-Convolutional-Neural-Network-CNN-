@@ -1,0 +1,20 @@
+https://drive.google.com/file/d/1HoGYH8LJbL3tlEeD_nif5qfV8G9tg8gj/view?usp=drive_link
+
+model.save("withmask_withoutmask.h5") we can download this file from the above mentioned link
+### Model Saving (.h5 File)
+
+The `.h5` file format is used in **Keras/TensorFlow** to save a trained deep learning model into a single file.
+
+This file stores:
+- The model architecture
+- The trained weights
+- The training configuration
+
+In this project, the trained neural network model is saved as:
+
+`withmask_withoutmask.h5`
+
+Saving the model allows us to **reload and reuse the trained model later** without retraining it again. This is useful for:
+- Deployment
+- Real-time predictions
+- Future testing and evaluation
