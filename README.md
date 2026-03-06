@@ -52,7 +52,7 @@ Download the dataset from the link below:
 
 ```
 Dataset Download Link:
-https://your-dataset-download-link
+https://drive.google.com/drive/folders/1SOlTfvAcQoRY3OcxYa-pbxdI0ydlWRbW?usp=drive_link
 ```
 
 After downloading, extract the dataset and place it inside the project folder like this:
@@ -70,7 +70,7 @@ dataset/
 Clone the repository:
 
 ```bash
-git clone https://github.com/chinnarasan007/face-mask-detection.git
+https://github.com/poojashri06/Face-Mask-Detection-using-Convolutional-Neural-Network-CNN-
 ```
 
 Navigate to the project directory:
