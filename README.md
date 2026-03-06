@@ -103,18 +103,11 @@ The CNN model includes the following layers:
 
 Example training code:
 
-```python
-model.compile(
-    optimizer='adam',
-    loss='binary_crossentropy',
-    metrics=['accuracy']
-)
+```
 
-history = model.fit(
-    train_data,
-    validation_data=validation_data,
-    epochs=10
-)
+adam=tf.keras.optimizers.Adam(learning_rate=0.001)
+model.compile(optimizer=adam,loss='sparse_categorical_crossentropy',metrics=['accuracy'])
+model.fit(X_train,Y_train,epochs=5,batch_size=64,validation_split=0.2)
 ```
 
 ---
@@ -123,8 +116,8 @@ history = model.fit(
 
 | Metric | Result |
 |------|------|
-| Training Accuracy | ~95% |
-| Validation Accuracy | ~93% |
+| Training Accuracy | ~97% |
+| Validation Accuracy | ~91% |
 
 *(Results may vary depending on dataset size.)*
 
